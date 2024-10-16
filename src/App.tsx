@@ -5,7 +5,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+async fetch(request, env, ctx) {
+   const url = new URL(request.url);
+}
   return (
     <>
       <div>
